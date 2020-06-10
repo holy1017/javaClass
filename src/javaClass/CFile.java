@@ -11,7 +11,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 
 
-/**
+/**ã…‹
  * @author "Holy"
  *
  */
@@ -58,10 +58,10 @@ public class CFile implements IMain {
 			ds = Files.newDirectoryStream(pa);
 			for (Path p : ds) {
 				if (Files.isDirectory(p)) {
-					Log("Æú´õ:"+p.getFileName());					
+					Log("í´ë”:"+p.getFileName());					
 				}else {
-					Log("ÆÄÀÏ:"+p.getFileName());				
-					Log("¿ë·®:"+Files.size(p));							
+					Log("íŒŒì¼:"+p.getFileName());				
+					Log("ìš©ëŸ‰:"+Files.size(p));							
 				}
 			}
 		} catch (IOException e) {
